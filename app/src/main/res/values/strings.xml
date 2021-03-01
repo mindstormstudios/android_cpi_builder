@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tidy Up</string>
+    <string name="app_name">Under My Umbrella</string>
     <string name="action_settings">Settings</string>
     <string name="first_fragment_label">First Level</string>
     <string name="second_fragment_label">Second Second</string>
@@ -7,6 +7,6 @@
     <string name="previous">Previous</string>
     <string name="hello_first_fragment">This is your first level of the game.</string>
     <string name="hello_second_fragment">This is your second level.</string>
-    <string name="facebook_app_id">424904398784416</string>
-    <string name="adjust_token">ih93kh5p5k3k</string>
+    <string name="facebook_app_id">249747523464576</string>
+    <string name="adjust_token">fs84v5lhz1mo</string>
 </resources>
