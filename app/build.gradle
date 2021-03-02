@@ -7,7 +7,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.grudgewars.runneralert"
+        applicationId "com.thunderzone.frisbee"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
