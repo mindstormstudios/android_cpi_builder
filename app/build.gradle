@@ -1,3 +1,23 @@
+def getPackageName() {
+    try {
+        def stringsFile = file("./src/main/res/values/strings.xml")
+        return new XmlParser().parse(stringsFile).string.find { it.@name.equals 'bundle_id' }.text()
+    }catch(e){
+        println(e)
+        return "com.mindstormstudios.cpibuilder"
+    }
+}
+
+def getAppName() {
+    try {
+        def stringsFile = file("./src/main/res/values/strings.xml")
+        return new XmlParser().parse(stringsFile).string.find { it.@name.equals 'app_name' }.text()
+    }catch(e){
+        println(e)
+        return "Next Best Game"
+    }
+}
+
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
@@ -7,13 +27,15 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.thunderzone.frisbee"
+        applicationId getPackageName()
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        setProperty("archivesBaseName", getAppName())
     }
 
     signingConfigs {
