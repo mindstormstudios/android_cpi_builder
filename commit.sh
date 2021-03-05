@@ -3,6 +3,8 @@
 # get the argument message
 message="$1"
 
+cd /home/ubuntu/android_cpi_builder
+
 # stage all changes
 git add .
 
