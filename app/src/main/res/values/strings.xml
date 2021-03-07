@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">The Umbrella Game</string>
-    <string name="bundle_id">com.thunderz.umbrella</string>
-    <string name="facebook_app_id">123523545</string>
-    <string name="adjust_token">wewer2342342re22</string>
+    <string name="app_name">Ball Game</string>
+    <string name="bundle_id">com.ms.ballgamwe</string>
+    <string name="facebook_app_id">3424wer234</string>
+    <string name="adjust_token">rwr234errwer</string>
 
     <string name="action_settings">Settings</string>
     <string name="first_fragment_label">First Level</string>
