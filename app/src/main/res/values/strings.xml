@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Runner Alert</string>
-    <string name="bundle_id">com.thunderzone.runneralert</string>
-    <string name="facebook_app_id">12352423424</string>
-    <string name="adjust_token">wwr234kr423wer</string>
+    <string name="app_name">Word Picture</string>
+    <string name="bundle_id">com.qsort.wordpicture</string>
+    <string name="facebook_app_id">184469889735657</string>
+    <string name="adjust_token">ctjhyf2qfgu8</string>
 
     <string name="action_settings">Settings</string>
     <string name="first_fragment_label">First Level</string>
