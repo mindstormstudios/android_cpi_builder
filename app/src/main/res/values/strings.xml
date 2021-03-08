@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Bomb Draw</string>
-    <string name="bundle_id">com.qsort.bombdraw</string>
-    <string name="facebook_app_id">273257161053507</string>
-    <string name="adjust_token">jeqswwy8lj40</string>
+    <string name="app_name">Tricky Run</string>
+    <string name="bundle_id">com.qsort.tricky</string>
+    <string name="facebook_app_id">274327064076078</string>
+    <string name="adjust_token">m134r54p2n0g</string>
 
     <string name="action_settings">Settings</string>
     <string name="first_fragment_label">First Level</string>
