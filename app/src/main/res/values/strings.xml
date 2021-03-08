@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Bubble Wrap Painting</string>
-    <string name="bundle_id">com.qsort.bubblewrap</string>
-    <string name="facebook_app_id">219862083220671</string>
-    <string name="adjust_token">8qy67ryqram8</string>
+    <string name="app_name">Dumpster Diver</string>
+    <string name="bundle_id">com.qsort.dumpster</string>
+    <string name="facebook_app_id">456224912103224</string>
+    <string name="adjust_token">lbcecczo9728</string>
 
     <string name="action_settings">Settings</string>
     <string name="first_fragment_label">First Level</string>
